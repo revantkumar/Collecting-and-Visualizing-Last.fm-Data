@@ -1,0 +1,41 @@
+Graph Explanation:
+
+1.) First, we will add a "type" column with value "Undirected" in each row of the file "track_id_sim_track_id.csv" which was obtained in Question 1. The new file obtained after adding the "type" column is called "track_id_sim_track_id_type.csv". This has been done so that graph obtained in Gephi is an undirected graph.
+
+2.) Now, we will start a new project in Gephi and open the "Data Laboratory".
+
+3.) Now, we will import the file "tracks.csv" as nodes and "track_id_sim_track_id_type.csv" as edges. Remember to the check the "add missing nodes".
+
+4.) After this, apply the layout method "Force Atlas" with the repulsion strength of 4000.
+
+5.) For adjusting the size and color of the nodes, go to the ranking module and select "Degree" parameter. I chose the color "Red Yellow Blue".
+
+6.) Now, run average path length given in the statistics column in right hand column.
+
+7.) After this, again go to the ranking module and select "Between Centrality" parameter.
+
+8.) Change the min node size to 30 and max node size to 170.
+
+9.) In the Force Atlas Layout, now set "Adjust by Sizes" in order to take into the node sizes.
+
+10.) For community detection, run Modularity on the Statistics panel.
+
+11.) After that, go to the Partition Module, and refresh it. Now, select Modularity class and click apply. I chose the Randomized Colors.
+
+12.) Now, we will filter the graph. Go to the Filter module and pull the "Degree Range" from topology to Queries. After that, increase the lower bound to 2 and apply. This will remove all the nodes with degree less than 2.
+
+13.) We have obtained the filtered graph. 
+
+14.) Now go to the preview section and obtain the final graph. Export it as a pdf. It is stored in the folder as graph.pdf.
+
+Other Snapshots in the folder:
+graph_with_filter.png - Graph obtained after the filtering
+graph_without_filter.png - Graph obtained before the filtering
+
+Some other snapshots in the “Extra Snapshots" Folder:
+These snapshots are basically of the Gephi workspace with the required graph.
+
+Other Files in the folder:
+Final_Graph_File.gephi - It is the gephi file which can be imported to gephi to see the work done.
+graph_metrics.txt - It contains the metrics required by the question
+

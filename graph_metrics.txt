@@ -1,0 +1,18 @@
+Graph Metrics:
+Average Node Degree = 5.534
+Network Diameter = 11
+Modularity = 0.693
+Average Path Length = 5.211
+
+Top 10 tracks with highest PageRank values:
+Id,track_name,artist,PageRank
+35143c2f-0484-44e2-bf27-7baa7ca5e135,Walking on Air,Katy Perry,0.018613167
+0c9d85d2-0666-4471-9842-d5a346523f73,Birthday,Katy Perry,0.01309613
+bcd3a77c-64a6-4c03-967b-92a0f6880c44,Can't Get You Out of My Head,Kylie Minogue,0.012456565
+0118d2c3-ec15-470e-b22d-4ae0134bd46e,Torn,Natalie Imbruglia,0.012151239
+020a3ff4-7fcf-4bc8-b00d-338a290deb8d,Applause,Lady Gaga,0.01187513
+4988f79d-2945-471d-b238-79f04949ed34,Get Outta My Way,Kylie Minogue,0.011236818
+aeff81b2-6e5c-4d1e-943f-e07b9a8cc29e,Toxic,Britney Spears,0.010565348
+b4be7f77-bb4d-46ac-931a-1fe0f8b16a9e,Something New,Girls Aloud,0.010453527
+7d9f69b7-81e7-4b42-ac24-ee58028740c8,Not Myself Tonight,Christina Aguilera,0.010344098
+710f21dc-4237-4459-90fd-b117a71d347f,All That She Wants,Ace of Base,0.009589774
